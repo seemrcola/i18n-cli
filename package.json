@@ -14,10 +14,12 @@
     "@vitalets/google-translate-api": "^8.0.0",
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
+    "custom-json2excel": "^3.1.5",
     "fast-glob": "^3.2.12",
     "figlet": "^1.5.2",
     "inquirer": "^9.1.3",
     "is-chinese": "^1.4.7",
+    "json2xls": "^0.1.2",
     "json5": "^2.2.1",
     "md5": "^2.3.0",
     "ora": "^6.1.2",
@@ -29,10 +31,10 @@
     "ctx": "bin/index.js"
   },
   "ctx": {
-    "appid":"20221014001391302",
-    "apikey":"efT1XJ_t9_9_V4MHPEDM",
-    "include":"",
-    "path":"",
-    "to":"en"
+    "appid": "20221014001391302",
+    "apikey": "efT1XJ_t9_9_V4MHPEDM",
+    "include": "",
+    "path": "",
+    "to": "en"
   }
 }

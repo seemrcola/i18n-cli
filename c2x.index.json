@@ -1,18 +1,1 @@
-{
-    "/src/test/t.js": {
-        "这是一个中文": "This is a Chinese",
-        "这是一个英文": "This is an English",
-        "你好": "Hello",
-        "世界": "world",
-        "空格": "Space",
-        "测试": "test",
-        "完毕": "complete"
-    },
-    "/src/test/t.vue": {
-        "我是中文": "I am Chinese",
-        "带空格的中文": "Chinese with spaces",
-        "中文": "Chinese",
-        "最外层的中文": "Outermost Chinese",
-        "测试": "test"
-    }
-}
+{}

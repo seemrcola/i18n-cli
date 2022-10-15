@@ -4,10 +4,12 @@ specifiers:
   '@vitalets/google-translate-api': ^8.0.0
   chalk: ^5.1.2
   commander: ^9.4.1
+  custom-json2excel: ^3.1.5
   fast-glob: ^3.2.12
   figlet: ^1.5.2
   inquirer: ^9.1.3
   is-chinese: ^1.4.7
+  json2xls: ^0.1.2
   json5: ^2.2.1
   md5: ^2.3.0
   ora: ^6.1.2
@@ -19,10 +21,12 @@ dependencies:
   '@vitalets/google-translate-api': 8.0.0
   chalk: 5.1.2
   commander: 9.4.1
+  custom-json2excel: 3.1.5
   fast-glob: 3.2.12
   figlet: 1.5.2
   inquirer: 9.1.3
   is-chinese: 1.4.7
+  json2xls: 0.1.2
   json5: 2.2.1
   md5: 2.3.0
   ora: 6.1.2
@@ -264,6 +268,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /custom-json2excel/3.1.5:
+    resolution: {integrity: sha512-abk43jVbUeajPyxMA3by1SnRIJ6gk3ZZ2B1OC1jXbbPwGb8psLDW4GP6SC7fyizgYawsgEXdwoHdcqyVzKVjgw==}
+    dev: false
+
   /dashdash/1.14.1:
     resolution: {integrity: sha512-jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g==}
     engines: {node: '>=0.10'}
@@ -328,6 +336,12 @@ packages:
   /escape-string-regexp/5.0.0:
     resolution: {integrity: sha512-/veY75JbMK4j1yjvuUxuVsiS/hr/4iHs9FTT6cgTexxdE0Ly/glccBAkloH/DofkjRbZU3bnoj38mOmhkZ0lHw==}
     engines: {node: '>=12'}
+    dev: false
+
+  /excel-export/0.3.11:
+    resolution: {integrity: sha512-yeAj651KpOFsTej/WolfJyjJNyKn4b4SM8aLKohteBn7fJqXPmW+x+t80O2g+AJD2WZlpTc93Lw0gk5KIBPBJw==}
+    dependencies:
+      node-zip: 1.1.1
     dev: false
 
   /extend/3.0.2:
@@ -592,6 +606,12 @@ packages:
     resolution: {integrity: sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==}
     dev: false
 
+  /json2xls/0.1.2:
+    resolution: {integrity: sha512-cnYzE6hzdYoiMAiCKnX6SJooyQ3cq+KKhEWv5d7CQNiX3TRIeEZsvvbeuIiB78Be5qDok7SBGuTv3IU524DTFQ==}
+    dependencies:
+      excel-export: 0.3.11
+    dev: false
+
   /json5/2.2.1:
     resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
@@ -606,6 +626,12 @@ packages:
       extsprintf: 1.3.0
       json-schema: 0.4.0
       verror: 1.10.0
+    dev: false
+
+  /jszip/2.5.0:
+    resolution: {integrity: sha512-IRoyf8JSYY3nx+uyh5xPc0qdy8pUDTp2UkHOWYNF/IO/3D8nx7899UlSAjD8rf8wUgOmm0lACWx/GbW3EaxIXQ==}
+    dependencies:
+      pako: 0.2.9
     dev: false
 
   /keyv/3.1.0:
@@ -690,6 +716,13 @@ packages:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
     dev: false
 
+  /node-zip/1.1.1:
+    resolution: {integrity: sha512-sXfGL65EcaAJqNSXxuyf//i4D4geUtJgZDYUd7IBo2/CH8XY8vcWh1+CBCxuVVyR+S4vAFc3hr//JkCi2+V5vg==}
+    hasBin: true
+    dependencies:
+      jszip: 2.5.0
+    dev: false
+
   /normalize-url/4.5.1:
     resolution: {integrity: sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==}
     engines: {node: '>=8'}
@@ -735,6 +768,10 @@ packages:
   /p-cancelable/1.1.0:
     resolution: {integrity: sha512-s73XxOZ4zpt1edZYZzvhqFa6uvQc1vwUa0K0BdtIZgQMAJj9IbebH+JkgKZc9h+B05PKHLOTl4ajG1BmNrVZlw==}
     engines: {node: '>=6'}
+    dev: false
+
+  /pako/0.2.9:
+    resolution: {integrity: sha512-NUcwaKxUxWrZLpDG+z/xZaCgQITkA/Dv4V/T6bw7VON6l1Xz/VnrBqrYjZQ12TamKHzITTfOEIYUj48y2KXImA==}
     dev: false
 
   /performance-now/2.1.0:
