@@ -14,7 +14,7 @@ program
   })
 
 program
-.command('translate <to>')
+.command('translate')
 .description('translate Chinese to English')
 .action(() => {
     import('../lib/translate/index.js')
