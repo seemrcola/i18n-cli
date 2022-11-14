@@ -1,6 +1,6 @@
 {
   "name": "i18n-c2x-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -25,6 +25,10 @@
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "urlencode": "^1.1.0"
+  },
+  "repository": {
+    "url": "https://github.com/seemrcola/i18n-cli",
+    "type": "git"
   },
   "bin": {
     "ctx": "bin/index.js"

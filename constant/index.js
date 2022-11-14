@@ -1,11 +1,11 @@
-import { cwd } from 'process'
+import {cwd} from 'process'
 import fs from 'fs'
 import path from 'path'
 
 export const ROOT = cwd()
 
 export const PKG = JSON.parse(
-  fs.readFileSync(path.join(ROOT, 'package.json'), { encoding: 'utf-8' })
+    fs.readFileSync(path.join(ROOT, 'package.json'), {encoding: 'utf-8'})
 )
 
 export const CTX = PKG.ctx
