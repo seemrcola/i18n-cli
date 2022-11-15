@@ -38,6 +38,7 @@
     "apikey": "efT1XJ_t9_9_V4MHPEDM",
     "include": "",
     "path": "",
-    "to": "en"
+    "to": "en",
+    "ignore":[]
   }
 }

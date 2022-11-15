@@ -12,6 +12,8 @@ export const CTX = PKG.ctx
 
 export const FILESTYPE = ['js', 'ts', 'vue']
 
+export const IGNORE = []
+
 export const PATH = 'src'
 
 export const LANG = 'en'
