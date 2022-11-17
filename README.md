@@ -25,6 +25,6 @@ ctx translate // zh-cn to any
 
   "include": "",//包含哪些后缀的文件，默认 .js .vue .ts
   "path": "",   //文件路径，以该路径为根路径,读取全部文件，默认 'src'
-  "ignore":[""] //type string[] => fast-glob.config.ignore ; 忽略哪种文件; todo!!!!
+  "ignore":[] //type string[] => fast-glob.config.ignore ; 忽略哪些文件。如 'src/main.js'
   }
   ```
